@@ -1,0 +1,12 @@
+.flex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  .flex-child {
+    width: calc( ( 100% - 40px ) / 3 );
+    height: 200px;
+    background: #000;
+  }
+}

@@ -1,5 +1,9 @@
 @charset 'UTF-8';
-@import "common/header";
-@import "common/footer";
 
-@import "component/box";
+// sass --watch scss/style.scss:css/style.css
+
+@import "common/__common.scss";
+@import "component/__component.scss";
+
+.inner { margin: 100px 0 0; border-top: 2px solid #333; }
+h3 { font-size: 30px; }

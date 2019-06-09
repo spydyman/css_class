@@ -1,0 +1,18 @@
+.before {
+  &::before {
+    content: '';
+  }
+}
+.after {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -7px;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+  }
+}
